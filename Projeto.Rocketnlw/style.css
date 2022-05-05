@@ -285,6 +285,7 @@ body.menu-expanded .logo  path {
 body.menu-expanded button path {
     stroke: white;
 }
+
 /*========#HOME=========*/
 #home {
     padding-top: calc(4.1rem + var(--nav-height));
@@ -355,6 +356,7 @@ body.menu-expanded button path {
     font-size: 1.6rem;
     line-height: 150%;
 }
+
 /*================SERVICES==========*/
 #services .cards {
     display: flex;
@@ -381,7 +383,9 @@ body.menu-expanded button path {
     margin-block: 1.6rem;
 }
 
-
+#services header {
+    margin-bottom: 6rem;
+}
 
 /*==============ABOUT=============*/
 #about {
